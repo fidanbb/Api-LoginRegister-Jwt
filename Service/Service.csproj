@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Repository\Repository.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Services\" />
+    <None Remove="Services\Interfaces\" />
+    <None Remove="Mappings\" />
+    <None Remove="DTOs\" />
+    <None Remove="DTOs\Employee\" />
+    <None Remove="Helpers\" />
+    <None Remove="Helpers\Enums\" />
+    <None Remove="Helpers\Responses\" />
+    <None Remove="DTOs\Account\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Services\" />
+    <Folder Include="Services\Interfaces\" />
+    <Folder Include="Mappings\" />
+    <Folder Include="DTOs\" />
+    <Folder Include="DTOs\Employee\" />
+    <Folder Include="DTOs\Common\" />
+    <Folder Include="Helpers\" />
+    <Folder Include="Helpers\Enums\" />
+    <Folder Include="Helpers\Responses\" />
+    <Folder Include="DTOs\Account\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+  </ItemGroup>
+</Project>

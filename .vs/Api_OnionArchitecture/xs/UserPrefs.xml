@@ -1,0 +1,38 @@
+﻿<Properties StartupConfiguration="{5E85C3C0-56BA-4D33-A3C9-E147511BCFEB}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Api__OnionArchitecture PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Api_OnionArchitecture/Controllers/AccountController.cs">
+    <Files>
+      <File FileName="Service/Services/Interfaces/IAccountService.cs" Line="13" Column="31" />
+      <File FileName="Service/Services/AccountService.cs" Line="44" Column="63" />
+      <File FileName="Api_OnionArchitecture/Controllers/AccountController.cs" Line="77" Column="1" />
+      <File FileName="Api_OnionArchitecture/appsettings.Development.json" Line="3" Column="27" />
+      <File FileName="Api_OnionArchitecture/Program.cs" Line="43" Column="115" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Api_OnionArchitecture" expanded="True">
+            <Node name="Api_OnionArchitecture">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="appsettings.json" expanded="True" />
+            </Node>
+            <Node name="Service">
+              <Node name="DTOs" expanded="True">
+                <Node name="Account" expanded="True" />
+              </Node>
+              <Node name="Services" expanded="True">
+                <Node name="Interfaces" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
